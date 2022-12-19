@@ -4,7 +4,8 @@
   "description": "primero proyecto de nodejs",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ldiazcharris/fullstack_course_ldiaz/issues"
   },
-  "homepage": "https://github.com/ldiazcharris/fullstack_course_ldiaz#readme"
+  "homepage": "https://github.com/ldiazcharris/fullstack_course_ldiaz#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
